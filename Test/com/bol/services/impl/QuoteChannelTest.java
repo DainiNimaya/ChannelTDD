@@ -17,14 +17,12 @@ import org.junit.rules.ExpectedException;
 public class QuoteChannelTest {
     
     private final QuoteChannel quoteChannel;
-    private final ChannelController channelController;
     
     @Rule
     public ExpectedException thrown = ExpectedException.none();
     
     public QuoteChannelTest() {
         quoteChannel = QuoteChannel.getInstance();
-        channelController = new ChannelController();
     }
 
    

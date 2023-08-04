@@ -31,15 +31,6 @@ public class ChannelControllerTest {
         channelController = new ChannelController();
         quoteChannel = QuoteChannel.getInstance();
     }
-    
-   
-//    @Test
-//    public void testAddChannelNameAlreadyExist() {
-//       channelController.addChannel("Quotes Channel");
-//       thrown.expect(RuntimeException.class);
-//       thrown.expectMessage("Channel name already exist");
-//       channelController.notifySubcribers("Quotes Channel");
-//    }
 
     
     @Test
